@@ -1,0 +1,12 @@
+TERMINAL
+
+$pwd
+print working directory
+
+$cd
+Current directory
+
+$ls
+
+$ git add .
+(stage a file for commit to git)
