@@ -1,0 +1,128 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width">
+
+	<style>
+		.column{
+			width: 32%;
+			border-width: 2px;
+			border-color:gray;
+			border-style:solid;
+			min-height: 12em;
+			margin:3px;
+			}
+
+		.left{
+			float:left;
+			background-image: url("https://d2lm6fxwu08ot6.cloudfront.net/img-thumbs/280h/ALE91JRQNT.jpg");
+			background-repeat: no-repeat;
+			background-size:cover;
+		}
+
+		.left2{
+			float:left;
+			background-image: url("https://d2lm6fxwu08ot6.cloudfront.net/img-thumbs/960w/6D9ZGTX4PR.jpg");
+			background-repeat: no-repeat;
+			background-size:cover;
+		}
+
+		.middle{
+			float:left;
+			background-image: url("https://d2lm6fxwu08ot6.cloudfront.net/img-thumbs/280h/Z4QHRT5G5E.jpg");
+			background-repeat: no-repeat;
+			background-size:cover;
+		}
+
+		.middle2{
+			float:left;
+			background-image: url("https://d2lm6fxwu08ot6.cloudfront.net/img-thumbs/280h/T9WZXVEUFB.jpg");
+			background-repeat: no-repeat;
+			background-size:cover;
+		}
+
+
+		.right{
+			float:left;
+			background-image: url("https://d2lm6fxwu08ot6.cloudfront.net/img-thumbs/280h/T8R7V4XS25.jpg");
+			background-repeat: no-repeat;
+			background-size:cover;
+		}
+
+		.right2{
+			float:left;
+			background-image: url("https://d2lm6fxwu08ot6.cloudfront.net/img-thumbs/960w/O6W4QJZFEB.jpg");
+			background-repeat: no-repeat;
+			background-size:cover;
+		}
+		
+		.white{
+			color:white;
+		}
+
+
+		@media all and (max-width: 800px){
+			.right, .right2, .middle{
+				float:right;
+			}
+			.column{
+				width: 48%;
+			}
+		
+		@media all and (max-width:600px) {
+			.left, .middle, .right, .right2, .left2{
+				float:none;
+			}
+			.column{
+				width: 100%;
+				border:none;
+			}
+
+		@media all and (min-width: 400px){
+			.column{
+				width: 100%;
+			}
+		}
+
+			/*body{
+				padding: .5em;
+			}*/
+			}
+		
+
+
+	</style>
+
+</head>
+
+
+<body>
+
+	<div class="column left">
+		<p>col left</p>
+	</div>
+
+	<div class="column middle">
+		<p>col mid</p>
+	</div>
+
+	<div class="column right">
+	<p><div class=white>col right</div></p>
+	</div>
+
+	<div class="column left2">
+		<p>col left2</p>
+	</div>
+
+	<div class="column middle2">
+		<p>col mid</p>
+	</div>
+
+	<div class="column right2">
+	<p><div class=white>col right2</div></p>
+	</div>
+
+<!-- 	<div class="column secondrow"></div>
+ -->
+
+</body>
+</html>
