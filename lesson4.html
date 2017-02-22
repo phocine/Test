@@ -3,6 +3,7 @@
 <meta name="viewport" content="width=device-width">
 
 	<style>
+
 		.column{
 			width: 32%;
 			border-width: 2px;
@@ -11,6 +12,37 @@
 			min-height: 12em;
 			margin:3px;
 			}
+
+		a:hover:not(.active) {
+    		background-color: #111;
+			}
+
+		.active {
+			background-color:#4CAF50;
+			}
+
+	a.column {
+	background: linear-gradient(45deg, rgba(255,184,115,0.65) 0%,rgba(255,124,189,0.65) 50%,rgba(108,0,153,0.65) 100%);
+	border-radius: 2px;
+	box-shadow: 0px 2px 4px rgba(34,62,66,.25);
+  color: #fff;
+  font-size: 18px;
+  letter-spacing: 1px;
+  padding: 16px 32px;
+  text-decoration: none;
+  text-transform: uppercase;
+  -webkit-transition: box-shadow 1s ease;
+	transition: box-shadow 1s ease;
+}
+
+	a.column:hover {
+	box-shadow: 10px 40px 40px rgba(34,62,66,.5);
+	-webkit-transition: box-shadow 1s ease;
+	transition: box-shadow 1s ease;
+}
+
+
+
 
 		.left{
 			float:left;

@@ -10,3 +10,6 @@ $ls
 
 $ git add .
 (stage a file for commit to git)
+
+get out of VIM
+:q!
